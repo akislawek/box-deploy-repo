@@ -6,7 +6,9 @@
     "bugs":"",
     "changelog":"",
     "contributors":[],
-    "dependencies":{},
+    "dependencies":{
+        "cbsecurity":"^2.12.0+178"
+    },
     "description":"",
     "devDependencies":{},
     "documentation":"",
@@ -14,9 +16,12 @@
     "ignore":[
         "**/.*",
         "/test/",
-        "/tests/"
+        "/tests/",
+        "modules/**"
     ],
-    "installPaths":{},
+    "installPaths":{
+        "cbsecurity":"modules/cbsecurity/"
+    },
     "instructions":"",
     "keywords":[],
     "license":[
